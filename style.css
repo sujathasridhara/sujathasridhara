@@ -214,6 +214,14 @@ h1 {
 }
 /* end Poetry Page CSS ^/
 
+/* Main Page CSS */
+#mainPage {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  margin-left: 30px;
+}
+/* end Main Page CSS */
+
 /* Writing Page CSS */
 #writingPage {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -228,7 +236,7 @@ h1 {
   font-size: medium;
   margin-left: 30px;
 }
-/* end About Me CSS */
+/* end About Me Page CSS */
 
 /* Story Page CSS */
 #storiesAndEssaysPage {
