@@ -205,7 +205,6 @@ h1 {
 .poetryLinks li {
   color: blue;
   display: inline-block;
-  /* font-family: 'Oxygen', sans-serif; */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -264,7 +263,6 @@ h1 {
 .storyLinks li {
   color: blue;
   display: inline-block;
-  /* font-family: 'Oxygen', sans-serif; */
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
   font-weight: 300;
