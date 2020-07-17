@@ -11,19 +11,15 @@
   <body>
     <!--Header-->
     <div id="header-placeholder"></div>
-
     <script>
-    $(function(){
-    $("#header-placeholder").load("header.html");
-    });
+      $(function(){
+      $("#header-placeholder").load("header.html");
+      });
     </script>
     <!--end of Header--> 
     
     <!--Navigation bar-->
-    <div id="nav-placeholder">
-
-    </div>
-
+    <div id="nav-placeholder"></div>
     <script>
     $(function(){
     $("#nav-placeholder").load("navBar.html");
@@ -31,12 +27,39 @@
     </script>
     <!--end of Navigation bar-->
 
-    <div id="MainText">
-      <h1>Writings</h1>
+    <!--Page Content -->
+    <h1>Writings</h1>
+    <div id="writingPage">
+      <p>
+        Over the years, I have been inspired to write poems on a range of topics, sometimes to teach a topic in school or just to express myself. Click the links below or to the right to read some of them.
+      </p>
+      <ul>
+        <li><a href="/poetry.html#ourContinentSong">Our Continent Song</a></li>
+        <li><a href="/poetry.html#thePlantSong">The Plant Song</a></li>
+        <li><a href="/poetry.html#praiseOrEncourage">Praise or Encourage</a></li>
+        <li><a href="/poetry.html#excusesExcuses">Excuses Excuses</a></li>
+        <li><a href="/poetry.html#friendship">Friendship</a></li>
+        <li><a href="/poetry.html#askMeNot">Ask Me Not</a></li>
+        <li><a href="/poetry.html#flightToFreedom">Flight to Freedom</a></li>
+        <li><a href="/poetry.html#timeFlies">Time Flies</a></li>      
+      </ul>
+      <p>
+        Here's a collection of stories and personal narratives that I have written over the last few years.
+      </p>
+      <ul class="storyLinks">
+        <li><a href="/storiesAndEssays.html#aprilsDay">April's Day</a></li>
+      
+    </ul>      
     </div>
+    <!--end of Page Content -->
 
-    <footer>
-      <h3>When you change the way you look at things, the things you look at will change!</h3>
-    </footer>    
+    <!--Footer-->
+    <div id="footer-placeholder"></div>    
+    <script>
+      $(function(){
+      $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+    <!--end of Footer--> 
   </body>
 </html>

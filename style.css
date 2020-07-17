@@ -6,18 +6,71 @@ body {
   padding: 0;
 }
 
-a {
+.navigation a {
   color: #EEE;
+  text-decoration: #FFF;
 }
 
-header{    
-  margin-left: 30px;
+/* START Practicing FreeCodeCao.org Code */
+header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+  height: 65px;
+}
+header .profile-thumbnail {
+  border-radius: 4px;
+  margin: 0 0 0 auto;
   display: flex;
 }
-
-footer{
-  text-align: center;
+header .profile-name {
+  color: #3587A4;
+  width: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 0 0 0 auto;
+  padding-left: 10px;
 }
+
+header .profile-caption {
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  margin: 0 0 0 auto;
+}
+
+header .follow-btn {
+  display: flex;
+  margin: 0 0 0 auto;
+}
+
+header .follow-btn button {
+  color: rgb(255, 0, 0);
+  border: 0;
+  border-radius: 3px;
+  padding: 10px;
+  background: transparent;    
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #3587A4;
+  flex-direction: row;
+  width: 100%;
+  height: 65px;
+}
+
+footer .message {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #FFF;
+  margin: auto;
+}
+/* END Practicing FreeCodeCao.org Code */
+
 
 /* Navigation */
 
@@ -33,12 +86,12 @@ footer{
   z-index: 999;
 }
 
-ul {
+.navigation ul {
   padding: 0;
   margin: 0;
 }
 
-li {
+.navigation li {
   color: #FFF;
   display: inline-block;
   /* font-family: 'Oxygen', sans-serif; */
@@ -101,10 +154,122 @@ th, td {
   width: 77%;
 }
 
-/* Div */
+/* Poetry Page CSS */
+h1 {
+  margin-left: 30px;
+}
 
-#MainText {
+#poetryPage {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#poetryPage li{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+#poetryPage p {
+  width: 33%;
+}
+
+#poetryPage p strong{
+  font-size: 24px;
+  color: black;
+}
+
+#poetryPage a{
+  color: brown;
+}
+
+.poetryLinks {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 5px 20px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.poetryLinks ul {
+  padding: 0;
+  margin: 0;
+}
+
+.poetryLinks li {
+  color: blue;
+  display: inline-block;
+  /* font-family: 'Oxygen', sans-serif; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 18px 18px 18px 18px;
+}
+/* end Poetry Page CSS ^/
+
+/* Writing Page CSS */
+#writingPage {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
   margin-left: 30px;
 }
+/* end Writing Page CSS */
+
+/* Story Page CSS */
+#storiesAndEssaysPage {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  margin-left: 30px;
+}
+
+#storiesAndEssaysPage li{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+#storiesAndEssaysPage p strong{
+  font-size: 24px;
+  color: black;
+}
+
+#storiesAndEssaysPage a{
+  color: brown;
+}
+
+.storyLinks {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 5px 20px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.storyLinks ul {
+  padding: 0;
+  margin: 0;
+}
+
+.storyLinks li {
+  color: blue;
+  display: inline-block;
+  /* font-family: 'Oxygen', sans-serif; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 18px 18px 18px 18px;
+}
+/* end Story Page CSS ^/
