@@ -20,7 +20,7 @@ header .profile-thumbnail {
   display: flex;
 }
 header .profile-name {
-  color: #917B4F;
+  color: rgb(143, 1, 1);
   width: auto;
   height: 50px;
   display: flex;
@@ -31,8 +31,13 @@ header .profile-name {
 
 header .profile-caption {
   font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(143, 1, 1);
+  text-align: center;
   display: flex;
-  margin: 0 0 0 auto;
+  flex-direction: column;
+  margin: 20px auto;
 }
 
 header .follow-btn {
@@ -41,7 +46,7 @@ header .follow-btn {
 }
 
 header .follow-btn button {
-  color: rgb(255, 0, 0);
+  color: rgb(143, 1, 1);
   border: 0;
   border-radius: 3px;
   padding: 10px;
