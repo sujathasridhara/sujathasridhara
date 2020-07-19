@@ -179,6 +179,7 @@ h1 {
 
 #poetryPage p {
   width: 33%;
+  padding: 1px;
 }
 
 #poetryPage p strong{
@@ -232,7 +233,22 @@ h1 {
 #writingPage {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: medium;
-  margin-left: 30px;
+  display: flex;
+  flex-direction: row; 
+}
+
+#box-1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0px 40px 10px 40px;
+}
+
+#box-2 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 0px 40px 10px 40px;
 }
 /* end Writing Page CSS */
 
